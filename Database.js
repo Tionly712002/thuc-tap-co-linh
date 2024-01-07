@@ -1,7 +1,7 @@
 // database.js
 import * as SQLite from 'expo-sqlite';
 
-const db = SQLite.openDatabase('mydatabase.db');
+const db = SQLite.openDatabase('doan.db');
 
 // Tạo bảng người dùng
 db.transaction(tx => {
